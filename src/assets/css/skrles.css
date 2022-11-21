@@ -1,0 +1,276 @@
+.main {
+  padding: 0 1.2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 998px) {
+  .main {
+    padding: 0 0.5rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .main {
+    padding: 0 0.25rem;
+  }
+}
+.ant-layout {
+  background: #f5f5f5 !important;
+}
+.page-wrap {
+  height: 100vh;
+}
+.page-wrap .ant-layout-sider {
+  background: #2a3139;
+}
+.sider .logo {
+  height: 80px;
+  padding: 0 10px ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 20px 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+.sider .logo img {
+  max-width: 100%;
+}
+.sider .logo h3 {
+  color: #999;
+  margin-top: 8px;
+  transition: 0.4s;
+  overflow: hidden;
+  padding-left: 5px;
+}
+.sider .ant-layout-sider-trigger {
+  background: #152331;
+}
+.sider .sider-menu {
+  background: #2a3139 !important;
+}
+.sider .sider-menu .ant-menu-inline.ant-menu-sub {
+  background: #282c34 !important;
+}
+.header {
+  height: 80px !important;
+  background: #2a3139 !important;
+}
+.header .head-nav {
+  display: flex;
+  align-items: center;
+  color: #999;
+  height: 100%;
+}
+.header .head-nav .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4vw;
+}
+.header .head-nav .nav .p {
+  font-size: 16px;
+}
+.header .head-nav .nav .anticon {
+  font-size: 24px;
+  color: #bbbbbb;
+  background: #51565c;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+.page-content {
+  overflow-y: auto;
+}
+.page-content .breadcrumb {
+  height: 85px;
+  background: #fff;
+  padding: 0 32px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.page-content .breadcrumb h3 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+.page-content .main-content {
+  min-height: 300px;
+  margin: 0 16px;
+  padding-bottom: 20px;
+}
+.page-content .main-content .divider {
+  margin: 12px 0;
+}
+.page-content .main-content .divider .p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.page-content .main-content .divider .p i {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background: #1890ff;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-size: 12px;
+}
+.page-content .main-content .divider .p span {
+  font-weight: bold;
+  font-size: 16px;
+}
+.page-content .main-content .form-table1 {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px 35px;
+}
+.page-content .main-content .form-table1 .line {
+  display: flex;
+}
+.page-content .main-content .form-table1 .line .ant-form-item {
+  width: 50%;
+  display: flex;
+}
+.page-content .main-content .form-table1 .ant-form-item {
+  margin-bottom: 16px;
+}
+.page-content .main-content .form-table1 .item-talbe {
+  padding-left: 72px;
+  margin-bottom: 0;
+}
+.page-content .main-content .form-table2 .head-form {
+  display: flex;
+  align-items: center;
+}
+.page-content .main-content .form-table2 .head-form .num {
+  margin-left: 2vw;
+}
+.page-content .main-content .form-table2 .head-form .num span {
+  font-weight: bold;
+  color: #777;
+}
+.page-content .main-content .form-table2 .head-form .num span:first-of-type {
+  font-weight: normal;
+  color: #555;
+}
+.page-content .submit {
+  background: #fff;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+.addform {
+  background: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.addform .table-head {
+  padding: 10px 15px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eeeeee;
+}
+.addform .table-head .left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.addform .table-head .left .select-product {
+  margin-right: 2vw;
+  display: flex;
+  align-items: center;
+}
+.addform .table-head .left .select-product span {
+  color: #999;
+}
+.addform .table-head .left .select-product p {
+  line-height: 1;
+  min-width: 100px;
+  color: #1890ff;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.addform .table-head .left .time {
+  color: #999;
+}
+.addform .table-head .ant-btn:hover,
+.addform .table-head .ant-btn:focus {
+  color: #ff9b12;
+  border-color: #ff9b12;
+}
+.addform .form-table {
+  padding: 15px;
+}
+.addform .form-table .ant-input-number {
+  font-size: 12px;
+}
+.addform .form-table .ant-input-number .ant-input-number-input {
+  height: 28px;
+}
+.addform .form-table .ant-select-selector {
+  font-size: 12px;
+}
+.addform .form-table .ant-select-selector input {
+  height: 28px;
+}
+.addform .form-table .ant-input {
+  font-size: 12px;
+}
+.addform .form-table .ant-descriptions:first-of-type {
+  margin-bottom: 10px;
+}
+.addform .form-table .ant-descriptions-view .ant-descriptions-item-label {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+.addform .form-table .ant-descriptions-view .ant-descriptions-item-content {
+  padding: 5px 10px ;
+  font-size: 12px;
+}
+.addDeal {
+  position: relative;
+}
+.addDeal .add {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  z-index: 9;
+}
+.addDeal .add .ant-btn {
+  height: 30px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.addDeal .ant-tabs .ant-tabs-nav-wrap {
+  max-width: calc(100% - 120px);
+}
+.addDeal .ant-tabs .ant-tabs-nav {
+  margin-bottom: 0 !important;
+}
+.addDeal .ant-tabs .ant-tabs-nav-list .ant-tabs-tab {
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #999;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-bottom: none;
+}
+.addDeal .ant-tabs .ant-tabs-nav-list .ant-tabs-tab-active {
+  color: #1890ff;
+}
+.addDeal .ant-tabs .ant-tabs-nav-add {
+  margin-left: auto !important;
+}
+.addDeal .ant-tabs .content {
+  background: #fff;
+  padding: 10px 15px 20px;
+  border: 1px solid #ddd;
+}
+.addDeal .ant-tabs .content h3 {
+  font-size: 13px;
+  line-height: 24px;
+}
+.addDeal .ant-tabs .content .ant-input {
+  font-size: 12px;
+  background: #f8f8f8;
+}

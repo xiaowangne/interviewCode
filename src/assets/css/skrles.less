@@ -1,0 +1,303 @@
+// 颜色
+@color1: #8fbed2;
+@color2:#ffd700;
+@color3:#7986cb;
+@bg1:#2a3139;
+@bg2:#1890ff;
+.main {
+    padding: 0 1.2rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 998px) {
+    .main{
+        padding: 0 0.5rem;
+    }
+  }
+@media screen and (max-width: 540px) {
+    .main{
+        padding: 0 0.25rem;
+    }
+  }
+  .ant-layout{
+    background: #f5f5f5 !important;
+  }
+  .page-wrap{
+    height: 100vh;
+    .ant-layout-sider{
+        background: @bg1;
+    }
+  }
+  .sider{
+    .logo{
+        height: 80px;
+        padding: 0 10px ;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 20px 0 20px 0px rgba(0,0,0,0.5);
+        img{
+            max-width: 100%;
+        }
+        h3{
+             color: #999;
+             margin-top: 8px;
+             transition: 0.4s;
+             overflow: hidden;
+             padding-left: 5px;
+        }
+      }
+      .ant-layout-sider-trigger{
+        background: #152331;
+      }
+      .sider-menu{
+        background: @bg1 !important;
+        .ant-menu-inline.ant-menu-sub{
+            background:#282c34 !important;
+        }
+      }
+  }
+  .header{
+    height: 80px !important;
+    background: @bg1 !important;
+    .head-nav{
+        display: flex;
+        align-items: center;
+        color: #999;
+       height: 100%;
+       .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 4vw;
+        .p{
+            font-size: 16px;
+        }
+        .anticon {
+            font-size: 24px;
+            color: #bbbbbb;
+            background: #51565c;
+            padding: 8px;
+            border-radius: 5px;
+            margin-right: 8px;
+        }
+       }
+    }
+  }
+  .page-content{
+    overflow-y: auto;
+    .breadcrumb{
+        height: 85px;
+        background: #fff;
+        padding: 0 32px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h3{
+            font-size: 22px;
+            margin-top: 10px;
+        }
+    }
+    .main-content{
+        min-height: 300px;
+        margin:0 16px;
+        padding-bottom: 20px;
+        .divider{
+            margin: 12px 0;
+            .p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 10px;
+                i{
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                    background: @bg2;
+                    color: #fff;
+                    border-radius: 50%;
+                    margin-right: 8px;
+                    font-size: 12px;
+                }
+                span{
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+        }
+        .form-table1{
+            background: #fff;
+            border-radius: 10px;
+            padding: 15px 35px;
+            .line{
+                display: flex;
+                .ant-form-item{
+                    width: 50%;
+                    display: flex;
+                }
+            }
+            .ant-form-item{
+                margin-bottom: 16px;
+            }
+            .item-talbe{
+                padding-left: 72px;
+                margin-bottom: 0;
+            }
+        }
+        .form-table2{
+            .head-form{
+                display: flex;
+                align-items: center;
+                .num{
+                    margin-left: 2vw;
+                    span{
+                        font-weight: bold;
+                        color: #777;
+                        
+                        &:first-of-type{
+                            font-weight: normal;
+                            color: #555;
+                        }
+                    }
+                }
+            }
+            .form-box{
+
+            }
+        }
+    }
+    .submit{
+        background: #fff;
+        padding:15px 20px;
+        margin-top: 20px;
+    }
+  }
+  .addform{
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    .table-head{
+        padding: 10px 15px 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #eeeeee;
+        .left{
+            display: flex;
+            flex-wrap: wrap;
+            .select-product{
+                margin-right: 2vw;
+                display: flex;
+                align-items: center;
+                span{
+                    color: #999;
+                }
+                p{
+                    line-height: 1;
+                    min-width: 100px;
+                    color: #1890ff;
+                    margin-left: 10px;
+                    margin-bottom: 0;
+                }
+            }
+            .time{
+                color: #999;
+            }
+        }
+        .ant-btn:hover, .ant-btn:focus{
+            color: #ff9b12;
+            border-color: #ff9b12;
+        }
+
+    }
+    .form-table{
+        .ant-input-number{
+            font-size: 12px;
+            .ant-input-number-input{
+                height: 28px;
+            }
+        }
+        .ant-select-selector{
+            font-size: 12px;
+            input{
+                height: 28px;
+            }
+        }
+        .ant-input{
+            font-size: 12px;
+        }
+        padding: 15px;
+        .ant-descriptions{
+            &:first-of-type{
+                margin-bottom: 10px;
+            }
+        }
+        .ant-descriptions-view{
+            .ant-descriptions-item-label{
+                padding: 4px 10px;
+                font-size: 12px;
+            }
+            .ant-descriptions-item-content{
+                padding: 5px 10px ;
+                font-size: 12px;
+            }
+        }
+       
+    }
+  }
+  .addDeal{
+    position: relative;
+    .add{
+        position: absolute;
+        right: 0;
+        top: -5px;
+        z-index: 9;
+        .ant-btn{
+            height: 30px;
+            font-size: 12px;
+            box-sizing: border-box;
+        }
+    }
+    .ant-tabs{
+        .ant-tabs-nav-wrap{
+            max-width: calc(100% - 120px);
+          
+        }
+        .ant-tabs-nav{
+            margin-bottom: 0 !important;
+        }
+        .ant-tabs-nav-list{
+            .ant-tabs-tab{
+                border: 1px solid #ddd;
+                background: #fff;
+                color: #999;
+                padding: 6px 12px;
+                font-size: 12px;
+                border-bottom: none;
+            }
+
+            .ant-tabs-tab-active{
+                color: #1890ff;
+            }
+        }
+        .ant-tabs-nav-add{
+            margin-left: auto !important;
+        }
+        .content{
+            background: #fff;
+            padding: 10px 15px 20px;
+            border: 1px solid #ddd;
+            h3{
+                font-size: 13px;
+                line-height: 24px;
+            }
+            .ant-input{
+                font-size: 12px;
+                background: #f8f8f8;
+            }
+        }
+    }
+  }
+
+ 
